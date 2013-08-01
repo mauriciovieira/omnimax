@@ -1,0 +1,277 @@
+---
+feature_groups:
+  Cloud Servers:
+    features:
+        List Servers:
+            done:
+                - pyrax
+                - blah
+                - blah
+            comments:
+                pyrax: hello
+        Create Server:
+        Get Server Details:
+        Support scheduler hints:
+        Delete Server:
+        Update Server:
+        Support AccessIP:
+        List addresses:
+        List addresses by network:
+        Support IPv6:
+        Support DiskConfig on server create:
+        Support DiskConfig on image create:
+        Change Admin Password:
+        Reboot:
+        Rebuild:
+        Resize:
+        Confirm Resized:
+        Revert Resized:
+        Create Image:
+        Rescue:
+        Unrescue:
+        List Volumes:
+        Attach Volume:
+        Get Volume Details:
+        Delete Volume:
+        List Images:
+        Get Image Details:
+        Delete Image:
+        List Flavors:
+        Get Flavor Details:
+        Server Bandwidth (RAX):
+        List Metadata:
+        Set Metadata:
+        Update Metadata:
+        Delete Metadata:
+  Networks:
+    features:
+        Create Network:
+        Delete Network:
+        List Networks:
+        Create Server attached to Cloud Network:
+        Handle special 'public' and 'private' networks seamlessly:
+  Files:
+    features: 
+        List Containers:
+        Get Account Metadata:
+        View Container Details:
+        List Objects in Container:
+        Object Filters:
+        Create container:
+        Delete container:
+        Update container Metadata:
+        Get Object:
+        Create/Update object:
+        Large object support:
+        Chunking:
+        Copy object:
+        delete object:
+        Get object metadata:
+        List CDN Containers:
+        Enable CDN Container:
+        List Metadata CDN Container:
+        Update CDN container metadata:
+        CDN Streaming Container:
+        Purge CDN Object:
+        Create Static Website:
+        Create TEMP_URL:
+        Bulk Delete:
+        Bulk Insert (Extract Archive):
+  Load Balancers:
+    features:
+        List:
+        Create:
+        Update:
+        Remove:
+        Get Stats:
+        List Nodes:
+        Add Node:
+        Modify Node:
+        Remove Node:
+        List Virtual Ips:
+        List Allowed Domains:
+        Add IPV6 IP:
+        Remove Virtual IP:
+        List Usage:
+        Create Access List:
+        Update Access List:
+        Delete Access List:
+        Monitor Health:
+        Connections:
+        HTTP/HTTPS:
+        Manage Session Persistence:
+        Log Connections:
+        Throttle Connections:
+        Content Caching:
+        List Protocols:
+        List Algorithms:
+        Update SSL termination:
+        List Metadata:
+        Add Metadata:
+        Modify Metadata:
+        Remove Metadata:
+  Databases:
+    features:
+        List Instances:
+        Create Instance:
+        Get instance details:
+        Delete Instance:
+        Enable Root User:
+        List Root Users:
+        Restart Instance:
+        Resize Instance:
+        Resize Instance Volume:
+        Create Database:
+        List Databases:
+        Delete Database:
+        Create User:
+        List Users:
+        Delete Users:
+        Change User Password:
+        List User Access:
+        Grant User Access:
+        Revoke User Access:
+        List Flavors:
+        List Flavor by ID:
+  DNS:
+    features:
+        List all Limits:
+        List Limit Types:
+        List specific Limit:
+        List Domains:
+        List Domain Details:
+        List Domain Changes:
+        export Domain:
+        create domain:
+        import domain:
+        modify domain:
+        remove domain:
+        list subdomains:
+        list records:
+        search records:
+        list record details:
+        add records:
+        modify records:
+        remove records:
+        List PTR Records:
+        List PTR Record Details:
+        Add PTR:
+        Modify PTR:
+        Remove PTR:
+  Identity:
+    features:
+        List Users:
+        Get user by name:
+        get user by id:
+        add user:
+        update user:
+        Delete Users:
+        list credentials:
+        get user credentials:
+        list user global roles:
+        authenticate token:
+        get tenants:
+  Monitoring:
+    features:
+        Limits:
+        Get Account:
+        Update Account:
+        Get Limits:
+        List Audits:
+        Create Entity:
+        List Entities:
+        Get Entity:
+        Update Entity:
+        Delete Entity:
+        Create Check:
+        Test Check:
+        Test Check and Include Debug Information:
+        Test Existing Check:
+        List Checks:
+        Get Check:
+        Update Checks:
+        Delete Checks:
+        Create Check Type:
+        List Check Types:
+        Get Check Type:
+        Update Check Type:
+        Delete Check Type:
+        Create Alarm:
+        Test Alarm:
+        List Alarms:
+        Get Alarm:
+        Update Alarm:
+        Delete Alarm:
+        Create Notification Plan:
+        List Notification Plans:
+        Get Notification Plan:
+        Update Notification Plans:
+        Delete Notification Plans:
+        Create Monitoring Zone:
+        List Monitoring Zones:
+        Get Monitoring Zone:
+        Update Monitoring Zone:
+        Delete Monitoring Zone:
+        Traceroute from Monitoring Zone:
+        List Alarm Notification History:
+        Get Alarm Notification History:
+        Create Notification:
+        Test Notification:
+        List Notifications:
+        Get Notifications:
+        Update Notifications:
+        Delete Notifications:
+        Create Notification Type:
+        List Notification Types:
+        Get Notification Type:
+        Update Notification Type:
+        Delete Notification Type:
+        List Alarm Changelogs:
+        Views Get Overview:
+        List Alarm Examples:
+        Get Alarm Example:
+        Evaluate Alarm Example:
+        List Agents:
+        List Agent:
+        List Agent Connections:
+        List Agent Connection:
+        Create Agent Token:
+        List Agent Tokens:
+        Get Agent Token:
+        Update Agent Token:
+        Delete Agent Token:
+  Block Storage:
+    features:
+        Create Volume:
+        List Volume(s):
+        Show Volume:
+        Delete Volume:
+        List Volume Types:
+        Describe Volume Type:
+        Create Snapshot:
+        List Snapshot:
+        Show Snapshot:
+        Delete Snapshot:
+  Backup:
+    features: 
+        Get agent details:
+        Enable/disable agent:
+        Enable volume encryption:
+        Delete agent:
+        Start or stop backup manually:
+        Get backup details:
+        Get completed backups:
+        Get backup report:
+        Create restore configuration:
+        Update a restore configuration:
+        Include/exclude a file in a restore configuration:
+        List included/excluded files in a restore configuration:
+        Delete a restore configuration:
+        List backups available for restore:
+        Start or Stop a Restore Manually:
+        Get Details about a Restore:
+        Get Restore Report:
+        List Activity for an Agent:
+        List Activity for User:
+        Get the Developer Guide:
+        List Images Supported by Agent:
