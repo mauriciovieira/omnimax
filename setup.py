@@ -10,7 +10,7 @@ setup(
     #url='http://pypi.python.org/pypi/Omnimax/',
     license='LICENSE.txt',
     description='An all-in-one test, documentation/sample code, and kata framework',
-    long_description=open('README.txt').read(),
+    long_description=open('README.md').read(),
     # setup_requires=['nose>=1.0'],
     install_requires=['distribute', 'behave', 'pyyaml', 'Mako'],
     # tests_require=['pyfakefs', 'nose', 'mock']
