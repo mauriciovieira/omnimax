@@ -32,5 +32,5 @@ GOLANG_VERSION=1.1.1 \
 # Run it!
 python setup.py install
 cd demo
-omnimax-cli.py test --behave_opts="-k --tags ~openstacknet --tags ~gophercloud --junit"
+omnimax-cli.py test --behave_opts="-k --tags ~openstacknet --tags ~gophercloud"
 
