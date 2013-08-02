@@ -1,4 +1,5 @@
 #!/bin/bash
+pip install -q -r requirements.txt
 
 # Rackspace credentials
 source /private/devopsy/rackspace_cloud_credentials &> /dev/null
@@ -31,4 +32,5 @@ GOLANG_VERSION=1.1.1 \
 # Run it!
 python setup.py install
 cd demo
-omnimax-cli.py test --behave_opts="-k --tags ~openstacknet --tags ~gophercloud"
+omnimax-cli.py test --behave_opts="-k --tags ~openstacknet --tags ~gophercloud --junit"
+
